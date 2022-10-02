@@ -17,7 +17,7 @@ namespace L9_DBDLL_29187
             InitializeComponent();
         }
 
-
+        /*METODO SUMAR*/
         private void btn_sumar_Click(object sender, EventArgs e)
         {
             int primer_numero, segundo_numero, resultado;
@@ -46,12 +46,14 @@ namespace L9_DBDLL_29187
             }
         }
 
+        /*METODO LIMPIAR */
         private void btn_limpiar_Click(object sender, EventArgs e)
         {
             txt_numero1.Clear();
             txt_numero2.Clear();
             lbl_resultado.Text=""; 
         }
+
 
         private void txt_numero2_TextChanged(object sender, EventArgs e)
         {
@@ -75,5 +77,7 @@ namespace L9_DBDLL_29187
         {
 
         }
+
+
     }
 }
