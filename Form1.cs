@@ -20,9 +20,9 @@ namespace L9_DBDLL_29187
         /*METODO SUMAR*/
         private void btn_sumar_Click(object sender, EventArgs e)
         {
+
             int primer_numero, segundo_numero, resultado;
-            /*validamos que sea un número y no una letra*/
-           
+            
             if ( !int.TryParse(txt_numero2.Text, out int num) )
             {
                 MessageBox.Show("Debe ingresar un número");
@@ -54,7 +54,7 @@ namespace L9_DBDLL_29187
             lbl_resultado.Text=""; 
         }
 
-
+        
         private void txt_numero2_TextChanged(object sender, EventArgs e)
         {
            
