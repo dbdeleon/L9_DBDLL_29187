@@ -41,6 +41,9 @@ namespace L9_DBDLL_29187
                     resultado = primer_numero + segundo_numero;
 
                     lbl_resultado.Text = resultado.ToString();
+
+                    Multiplicar(primer_numero,  segundo_numero); 
+
                 }
                     
             }
@@ -52,6 +55,13 @@ namespace L9_DBDLL_29187
             txt_numero1.Clear();
             txt_numero2.Clear();
             lbl_resultado.Text=""; 
+        }
+
+        private void Multiplicar(int numero1, int numero2)
+        {
+            int resultadoMultiplicacion;
+            resultadoMultiplicacion = numero1 * numero2; 
+            MessageBox.Show("Resultado de la multiplicación" + resultadoMultiplicacion); 
         }
 
         
